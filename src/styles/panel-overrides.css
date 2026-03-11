@@ -1,0 +1,14 @@
+/* Estilos adicionales para React - estado activo manejado por useState */
+
+.panel-nav-item.active {
+  background-color: rgba(255, 107, 53, 0.1);
+  color: var(--color-primary);
+  border-left-color: var(--color-primary);
+}
+
+@media (max-width: 768px) {
+  .panel-nav-item.active {
+    border-left-color: transparent;
+    border-bottom-color: var(--color-primary);
+  }
+}
