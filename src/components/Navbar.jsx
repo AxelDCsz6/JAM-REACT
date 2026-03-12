@@ -1,4 +1,5 @@
 import { Link, NavLink } from 'react-router-dom';
+import logoSinFondo from '../assets/logosinfondo.png';
 
 function Navbar() {
   return (
@@ -6,7 +7,7 @@ function Navbar() {
       <nav className="navbar">
         <div className="nav-container">
           <Link to="/" className="logo">
-            <img src="/logosinfondo.png" alt="JAM" />
+	  	<img src={logoSinFondo} alt="JAM" />
           </Link>
           <ul className="nav-menu">
             <li><Link to="/">Inicio</Link></li>
